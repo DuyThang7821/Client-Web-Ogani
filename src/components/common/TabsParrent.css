@@ -1,0 +1,30 @@
+
+.tabs-container {
+    position: relative;
+  }
+  
+
+  .tabs-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 400px; 
+    height: 2px;
+    background-color: #ccc; 
+  }
+  .tabs-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    width: 400px; 
+    height: 2px;
+    background-color: #ccc; 
+  }
+  .tabs-container > span {
+    border-bottom: none;
+  }
+  

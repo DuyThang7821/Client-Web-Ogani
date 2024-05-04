@@ -1,0 +1,17 @@
+.section-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section {
+    flex: 1;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+
+  
+  
+  
